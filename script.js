@@ -5,7 +5,7 @@ function loadScenario(scenarioName) {
       console.log(data);
       // Create video element and potentially other elements
       const video = document.createElement("iframe");
-      video.src = data[0].videoUrl + "&mute=1"; // Add autoplay to the video URL
+      video.src = data[0].videoUrl; // Add autoplay to the video URL
       video.setAttribute("allow", "autoplay"); // Allow autoplay
       video.controls = false; // Hide video controls
 
