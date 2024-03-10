@@ -1,0 +1,23 @@
+[
+  {
+    "videoUrl": "https://www.youtube.com/embed/g-gUc1oq0W0?autoplay=1",
+    "form": {
+      "displayForm": true,
+      "choices": [
+        {
+          "label": "Επιλογή Α",
+          "nextScenario": "scenario2.json"
+        },
+        {
+          "label": "Επιλογή Β",
+          "nextScenario": "scenario3.json"
+        }
+      ],
+      "timer": {
+        "displayTimer": true,
+        "duration": 15
+      }
+    }
+  }
+
+]
