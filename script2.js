@@ -54,7 +54,7 @@ function displayForm(choices) {
     const anchor = document.createElement("a");
     // Set href attribute to navigate to different HTML files
     // Replace 'path/to/your/html/file' with the actual paths to your HTML files
-    anchor.href = index === 0 ? "index.html" : "option2.html";
+    anchor.href = index === 0 ? "" : "index.html";
     anchor.appendChild(radio);
     anchor.appendChild(document.createTextNode(choice.label));
 
@@ -74,4 +74,4 @@ function displayForm(choices) {
 }
 
 
-loadScenario("/scenario1.json");
+loadScenario("/scenario2.json");
